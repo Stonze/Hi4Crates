@@ -125,7 +125,7 @@ public class bookController {
 	    	// coolSMS 실행
 	    	Message message = new Message();
 	        // 발신번호 및 수신번호는 반드시 01012345678 형태로 입력되어야 합니다.
-	        message.setFrom("01050645042");	// 발신번호
+	        message.setFrom("");	// 발신번호
 	        message.setTo(phone);	// 수신번호
 	        message.setText(content);
 	        
