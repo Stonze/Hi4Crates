@@ -490,7 +490,7 @@
 				}
 			$.ajax({
 				type:'POST',
-				url : 'https://texttospeech.googleapis.com/v1/text:synthesize?key=AIzaSyC1atprqzLyOEMDhR6dQKtGtbtmkjhBbN0',
+				url : 'https://texttospeech.googleapis.com/v1/text:synthesize?key=API_KEY',
 				data: JSON.stringify(data),
 				dataType: 'JSON',
 				contentType : "application/json; charset=UTF-8",

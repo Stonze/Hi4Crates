@@ -334,7 +334,7 @@
 		src="${pageContext.request.contextPath }/resources/assets/js/sticky.js"></script>
 
 </body>
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ead6c3f10afa82bad8045545e1f5f4bf&libraries=services"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=JAVASCRIPT_KEY&libraries=services"></script>
 <script>
     var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
         mapOption = {

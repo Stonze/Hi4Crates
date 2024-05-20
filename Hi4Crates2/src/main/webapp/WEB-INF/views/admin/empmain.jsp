@@ -500,7 +500,7 @@ window.onload = startBlink;
     });
 
     //제이쿼리사용
-    $.getJSON('https://api.openweathermap.org/data/2.5/weather?q=daejeon,kr&appid=dff37381e0beca87b486ed7b5c4770b7&units=metric',
+    $.getJSON('https://api.openweathermap.org/data/2.5/weather?q=daejeon,kr&appid=API_KEY&units=metric',
     function(WeatherResult) {
     //기온출력
 
@@ -515,7 +515,6 @@ window.onload = startBlink;
             + WeatherResult.weather[0].icon + 
             '.png" alt="' + WeatherResult.weather[0].description + '"/>'
         $('.SeoulIcon').html(weathericonUrl);
-    
     
     });
 

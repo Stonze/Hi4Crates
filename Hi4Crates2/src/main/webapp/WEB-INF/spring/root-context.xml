@@ -22,7 +22,7 @@
 	
 	<!-- 카카오로그인 API -->
 	<bean id="client_id" class="java.lang.String">
-		<constructor-arg value="7fe9836832cab3da406e63d611f2092b"/>
+		<constructor-arg value="JAVASCRIPT_KEY"/>
 	</bean>
 	
 	<bean id="redirect_uri" class="java.lang.String">
@@ -81,13 +81,10 @@
 	</bean>
 	
 	
-	<!-- API 관련 Bean 등록 시작 -->	
-	
-	<!-- 카카오 API KEY값 (REST API KEY, ADMIN KEY, JAVASCRIPT_KEY) 추가예정... -->
 	
 	
 	
-	<!-- API 관련 Bean 등록 끝 -->	
+	
 	
 	<!-- uploadPath Bean 등록 -->
 	<bean id="uploadPath" class="java.lang.String">
