@@ -82,7 +82,7 @@
 	    	};
 	    	
 	        const api = new JitsiMeetExternalAPI("8x8.vc", {
-	          roomName: "vpaas-magic-cookie-30197fdac748462da181f1d55f8ab63e/" + roomName, // roomname 설정 가능
+	          roomName: "vpaas-magic-cookie-API_KEY/" + roomName, // roomname 설정 가능
 	          parentNode: document.querySelector('#jaas-container'),
 	          configOverwrite: {
 	        	  toolbarButtons: ['hangup', 'microphone', 'camera', 'settings'],
